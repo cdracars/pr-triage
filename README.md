@@ -4,10 +4,20 @@
 
 ## Install
 
-In Codex, install this skill from this repository, then invoke it with `$pr-triage` or ask for PR status, CI, mergeability, conflicts, or review-state triage.
+In a Codex chat, ask the built-in installer:
+
+> `$skill-installer install the skill from https://github.com/cdracars/pr-triage/tree/main/.`
+
+The skill will be available in your next turn. Invoke it with `$pr-triage`, or ask for PR status, CI, mergeability, conflicts, or review-state triage.
+
+For a manual installation, copy this repository's contents into `~/.codex/skills/pr-triage/`, preserving `SKILL.md` and `agents/openai.yaml`.
 
 ## Safety
 
 This skill is strictly read-only. It never modifies GitHub pull requests or local repositories.
 
 See [SKILL.md](SKILL.md) for the complete workflow and safety boundary.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
